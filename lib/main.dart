@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/ui/details.dart';
 import 'package:movie_app/ui/home.dart';
 import 'package:movie_app/ui/splash.dart';
 
@@ -23,6 +24,7 @@ class _MyApp extends State<MyApp> {
         routes: <String, WidgetBuilder>{
 
           '/home': (BuildContext context) => new Home(),
+          '/details': (BuildContext context) => new Details(),
 
         }
     );
